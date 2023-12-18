@@ -9,14 +9,14 @@ body {
   line-height: 2rem;
   overflow: hidden;
   margin: 0;
-  font-family: "Spoqa Han Sans Neo", sans-serif;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
   font-weight: 400;
   color: oklch(90% 0 0/1);
   word-break: keep-all;
   overflow-wrap: break-word;
   background-color: oklch(6% 0 0/1);
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   body {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -38,7 +38,7 @@ h1 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h1 {
     font-size: 2.25rem;
     line-height: 3rem;
@@ -54,7 +54,7 @@ h2 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h2 {
     font-size: 2rem;
     line-height: 2.75rem;
@@ -70,7 +70,7 @@ h3 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h3 {
     font-size: 1.75rem;
     line-height: 2.375rem;
@@ -86,7 +86,7 @@ h4 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h4 {
     font-size: 1.5625rem;
     line-height: 2.25rem;
@@ -102,7 +102,7 @@ h5 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h5 {
     font-size: 1.375rem;
     line-height: 2rem;
@@ -118,7 +118,7 @@ h6 {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   h6 {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -133,7 +133,7 @@ p {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   p {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -193,7 +193,7 @@ canvas {
 
 .container {
   box-sizing: content-box;
-  max-width: 60rem;
+  max-width: 70rem;
   margin-inline: auto;
   padding-block: 2.5rem;
   padding-inline: 5rem;
@@ -204,7 +204,7 @@ canvas {
     padding-inline: 2.5rem;
   }
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   .container {
     padding-block: 2rem;
     padding-inline: 2rem;
@@ -223,7 +223,7 @@ canvas {
   grid-template-columns: repeat(1, max-content) minmax(15.5ch, 1fr);
   row-gap: 0.5em;
   -moz-column-gap: 1.5em;
-       column-gap: 1.5em;
+  column-gap: 1.5em;
 }
 .table--col-3,
 .grid--col-3 {
@@ -275,7 +275,7 @@ canvas {
   padding: 2rem;
   background-color: oklch(17% 0 0/1);
 }
-@media (width < 60rem) {
+@media (width < 70rem) {
   .table {
     padding: 1rem;
   }

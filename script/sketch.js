@@ -4,7 +4,7 @@ const rowNum = 75,
 // 셀의 갯수 설정
 
 function setup() {
-  setCanvasContainer('canvas', 1, 1, true);
+  setCanvasContainer('canvas', 1300, 200, true);
 
   const w = width / colNum; // 셀의 너비
   const h = w; // 셀의 높이는 너비와 동일
